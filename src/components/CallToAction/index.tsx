@@ -30,6 +30,7 @@ export default function CallToAction() {
               alt="men playing football"
               style={{
                 borderRadius: borderRadius,
+                filter: "grayscale(1)",
               }}
             />
           </Fade>

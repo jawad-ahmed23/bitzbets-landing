@@ -7,6 +7,7 @@ import {
   Container,
   Button,
   Heading,
+  Link,
 } from "@chakra-ui/react";
 
 const Fade = require("react-reveal/Fade");
@@ -50,6 +51,9 @@ export default function Hero() {
               variant="primary-outline"
               rounded="full"
               size={{ base: "md", md: "lg" }}
+              as={Link}
+              href="https://ncaa-bet-app.vercel.app/"
+              target="_blank"
             >
               Get Started
             </Button>
