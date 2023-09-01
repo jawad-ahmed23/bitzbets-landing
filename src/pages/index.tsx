@@ -11,10 +11,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>BlitsBets</title>
+        <title>hasbeencfb2023</title>
         <meta
           name="description"
-          content="Truly Decentralizing the Gaming Sector"
+          content="Bet smart, play fierce. Let the playdown begin!"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

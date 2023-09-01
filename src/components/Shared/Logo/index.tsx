@@ -7,7 +7,7 @@ export default function Logo() {
     <Box maxW={{ base: "160px", md: "250px" }}>
       <Link href="/">
         <Text fontSize="30px" fontWeight={700}>
-          Logo
+          🏈
         </Text>
       </Link>
     </Box>
