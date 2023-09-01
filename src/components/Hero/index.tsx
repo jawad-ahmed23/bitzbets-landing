@@ -7,7 +7,7 @@ import {
   Container,
   Button,
   Heading,
-  Link,
+  Link
 } from "@chakra-ui/react";
 
 const Fade = require("react-reveal/Fade");
@@ -25,10 +25,12 @@ export default function Hero() {
           <Fade top>
             <Heading
               style={climate_crisis.style}
+              textAlign={"center"}
               as="h1"
               textTransform="uppercase"
+              marginBottom={5}
               fontSize={{
-                base: "30px",
+                base: "35px",
                 sm: "50px",
                 md: "80px",
                 lg: "100px",
@@ -38,12 +40,14 @@ export default function Hero() {
               color="primary"
               wordBreak="break-all"
             >
-              BlitzBets
+              2023 has been pick em
             </Heading>
           </Fade>
           <Fade bottom>
             <Text fontSize="20px" mb="5" textAlign="center">
-              Where everything happens!!
+
+              Elevate your game day banter! Bet smart, play fierce – your friends, your rules. Let the touchdowns begin!
+
             </Text>
           </Fade>
           <Fade bottom>
@@ -55,7 +59,7 @@ export default function Hero() {
               href="https://ncaa-bet-app.vercel.app/"
               target="_blank"
             >
-              Get Started
+              Bet Now
             </Button>
           </Fade>
         </VStack>

@@ -16,6 +16,7 @@
     "@types/node": "20.5.0",
     "@types/react": "18.2.20",
     "@types/react-dom": "18.2.7",
+    "balancer": "^0.2.3",
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.13",
     "framer-motion": "^10.15.2",
@@ -25,6 +26,7 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.10.1",
     "react-reveal": "^1.2.2",
+    "react-wrap-balancer": "^1.1.0",
     "typescript": "5.1.6"
   }
 }
